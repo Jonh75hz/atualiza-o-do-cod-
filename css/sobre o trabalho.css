@@ -1,0 +1,65 @@
+body { 
+    background-image: url('https://down-br.img.susercontent.com/file/sg-11134201-22110-ed4d3zpxnujvb5'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    height: 20vh;               /* Faz com que o container ocupe toda a altura da viewport */
+    padding: 0 110px;
+    font-family: cursive;
+    color: #464646fc;
+}
+
+
+    
+  
+ .fixar {
+    padding: 0 110px;
+    font-family: cursive;
+    color: #464646fc;
+}
+ 
+
+h1 {
+    font-size: 3rem;
+    color: #000000fc;
+    text-shadow: 2px 2px 4px rgba(0, 4, 255, 0.2);
+    background: linear-gradient(45deg, #0084a9, #00858dfc );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:  25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+    p {
+    font-size: 2rem;
+    color: #000000fc;
+    text-shadow: 2px 2px 4px rgba(0, 4, 255, 0.2);
+    background: linear-gradient(45deg, #0084a9, #00858dfc );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:  25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
